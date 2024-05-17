@@ -18,8 +18,23 @@
             <label class="form-label" for="password">Contraseña:</label>
             <input class="form-control" type="password" id="password">            
             <br>
-            <input class="btn btn-primary" type="submit" value="Iniciar SESION">
+            <input class="btn btn-primary" type="submit" onclick="validarUsuario()" value="Iniciar SESION">
         </form>
     </main>
+
+<script>
+        function validarUsuario(){
+            let name = document.getElementById
+            ('name').value;
+            let pass = document.getElementById
+            ('password').value;
+
+            if(name == "angel" &&  pass == 1234){
+                alert("usuario y contrasela correctos")
+            }
+            else
+            alert("usuario inexistente")
+        }
+    </script>
 </body>
 </html>
